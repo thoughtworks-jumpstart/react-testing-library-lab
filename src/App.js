@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { FavoriteNumber } from "./1_Basic/favoriteNumber";
+// import { BrowserRouter } from "react-router-dom";
+// import { Toggle } from "./2_Fireevent/toggle";
+// import { GreetingLoader } from "./3_Mock_Async_Api/greetingLoader";
+// import { Main } from "./4_Routing/main";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <FavoriteNumber />;
 }
 
 export default App;
